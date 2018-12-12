@@ -1,5 +1,5 @@
 const RpcEngine = require('json-rpc-engine')
-const providerFromEngine = require('eth-json-rpc-middleware/providerFromEngine')
+const providerFromEngine = require('@dexon-foundation/eth-json-rpc-middleware/providerFromEngine')
 const createInfuraMiddleware = require('./index')
 
 
